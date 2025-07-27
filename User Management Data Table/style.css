@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+  margin: 10px;
+  padding: 40px;
+}
+
+.header {
+  background-color: #2196f3;
+  color: white;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.header h2 {
+  font-size: 25px;
+  font-weight: lighter;
+}
+
+.header h2 span {
+  font-weight: bold;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.button {
+  background-color: white;
+  padding: 8px 12px;
+  border-radius: 4px;
+  font-weight: bold;
+  display: flex;
+}
+
+svg {
+    height: 20px;
+    width: 20px;
+    color: gray;
+    margin-top: 2px;
+}
+
+p {
+    color: gray;
+    font-size: small;
+    margin: 5px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  color: #333;
+}
+
+th {
+  color: #4a4a4a;
+  font-weight: bold;
+  font-size: 14px;
+  border-bottom: 1px solid #ccc;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.user img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+.status {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 6px;
+}
+
+.status.active {
+  background-color: green;
+}
+
+.status.suspended {
+  background-color: red;
+}
+
+.status.inactive {
+  background-color: orange;
+}
+
+tbody tr.line {
+  border-bottom: 1px solid #eee;
+}
+
+.action-icons {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+
+
+.setting svg{
+  color: #2196f3;
+}
+
+.delete svg {
+  color: red;
+}
+
+body {
+  margin: 10px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100%;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 30px;
+}
+
+.entry {
+  color: #555;
+  font-size: 14px;
+}
+
+.entry b {
+  font-weight: bold;
+}
+
+.footer {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding-left: 30px;
+}
+
+.page {
+  padding: 5px 10px;
+  border-radius: 4px;
+  color: #555;
+  background-color: #f2f2f2;
+  font-size: 14px;
+}
+
+.page.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.next-or-previous-page {
+  color: #aaa;
+  background-color: transparent;
+}
+
+
+
+
+
